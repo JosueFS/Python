@@ -1,0 +1,21 @@
+times = ('Flamengo eSports', 'Uppercut Esports', 'INTZ e-Sports Club',
+         'Vivo Keyd', 'Redemption eSports', 'KaBuM! e-Sports',
+         'CNB e-Sports Club', 'ProGaming Esports')
+pts = ('11', '7', '6', '6', '6', '5', '5', '2')
+v = ('11', '7', '6', '6', '6', '5', '5', '2')
+d = ('1', '5', '6', '6', '6', '7', '7', '10')
+print('-'*50)
+print(times)
+print('-'*50)
+print(f'O 4 primeiros são {times[:4]}')
+print('-'*50)
+print(f'Os 2 últimos são {times[-2:]}')
+print('-'*50)
+print(f'Times em ordem alfabética: {sorted(times)}')
+print('-'*50)
+print(f'O Flamengo está em {times.index("Flamengo eSports")+1}° Lugar')
+print('-'*50)
+print('-'*50)
+print('-'*50)
+for c in range(0, len(times)):
+    print(times[c])
